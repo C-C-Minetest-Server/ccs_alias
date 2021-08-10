@@ -17,6 +17,8 @@ for k,v in pairs({"air","water","astroid_spawner","ore_pawner","ore_spawner","mo
 	air("space:"..v)
 end
 
+air("visable_air:visable_air")
+
 local beacons_color_descs = {
     white = "White",
     red = "Red",
